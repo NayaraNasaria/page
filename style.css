@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&family=Oswald&family=Playfair+Display&family=Poppins:wght@100;300&family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: whitesmoke;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5% 0px 0px;
+    background-color: whitesmoke;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 40px;
+    margin-left: 70%;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Poppins', sans-serif;
+    color: #6B0F3C;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.cabecalho-menu-item:hover{
+    font-family: 'Poppins', sans-serif;
+    color: #6B0F3C;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0.1px solid #6B0F3C;
+}
+
+
+.conteudo{
+    margin-bottom: 40px;
+    padding: 0px 2px 1% 14px;
+    /* border-top: 0.4px solid black; */
+}
+
+.conteudo-inicial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 7%;
+}
+
+.conteudo-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudo-titulo{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 43px;
+    color: #8C0335;
+}
+
+.conteudo-titulo:hover{
+    background-image: linear-gradient(to bottom, #f44585, #cf2362, #24010e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    cursor: default;
+}
+
+.conteudo-button{
+    background-color: whitesmoke;
+    width: 130px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-left: 25%;
+}
+
+.conteudo-button:hover{
+    background-color: rgba(0, 0, 0, 0.70);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.conteudo-imagem{
+    padding-top: 40px;
+    height: 450px;
+}
+
+.conteudo-second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    margin-right: 14%;
+
+}
+
+.cont-second-titulo{
+    border-top: 0.4px solid black;
+    padding-top: 48px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #8C0335;
+}
+
+.cont-second-titulo:hover{
+    background-image: linear-gradient(to bottom, #f44585, #cf2362);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    cursor: default;
+}
+
+.cont-second-paragrafo{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #181516;
+    text-align: justify;
+
+
+}
+.cont-paragrafo{ 
+    margin-left: 4%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #181516;
+    text-align: justify;
+}
+
+.conteudo-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.conteudo-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 650px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card{
+    overflow: hidden;
+    width: 350px;
+    height: 450px;
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 15px 0 rgb(163, 163, 163);
+}
+
+.card-itens{
+    width: 100%;
+    height: 100%;
+}
+
+.card-top{
+    width: 100%;
+    height: 60%;
+    background-color: #940322;
+    border-radius: 30px;
+    color: white;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin-left: 41%;
+    margin-bottom: 12px;
+    padding: 0 0 15 2;
+    /* color: #940322; */
+}
+.icons-two{
+    display: flex;
+    align-items: center;
+    margin-left: 32%;
+    margin-bottom: 12px;
+    padding: 0 0 15 2;
+    /* color: #940322; */
+}
+.icons span{
+    cursor: pointer;
+    
+    font-size: 30px;
+}
+.card-top h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-left: 1.5em;
+}
+.card-top h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    padding-left: 1em;
+    font-weight: 600;
+}
+.card-bottom{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.card-bottom h1{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.card-bottom h2{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+#mysql, #php{
+    width: 120px;
+    position: absolute;
+    top: 170px;
+    transition: 1s;
+}
+#php{
+    left: 120px;
+}
+
+#mysql{
+    left: -150px;
+}
+#python, #css, #html, #java,#js{
+    width: 120px;
+    position: absolute;
+    top: 170px;
+    transition: 1s;
+}
+#python{
+    left: 120px;
+}
+#css{
+    left: -150px;
+}
+#html{
+    left: -200px;
+}
+#java{
+    left: -250px;
+}
+#js{
+    left: 350px;
+}
+
+.text-fixed{
+    color: #181516;
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+
+.text-dynamic{
+    color: #8C0335;
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    list-style: none;
+    margin-left: 16px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+.text-dynamic li{ 
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+@keyframes slide{
+    100%{
+        top: -360px;
+    }
+}
+
+.text-dynamic li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-left: 2px solid #8C0335;
+    animation: type 1.5s steps(10) infinite;
+}
+@keyframes type{
+    100%{
+        left: 100%;
+        margin: 0 - 35px 0 35px;
+    }
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 16px;
+    border-top: 0.4px solid black;
+}
+.rodape-contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.rodape-imagem{
+    margin: 0 auto;
+    margin-left: 50%;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+.rodape-imagem:hover{
+    color: #8C0335;
+    transform: translateY(-10px);
+}
+
