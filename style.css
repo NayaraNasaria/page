@@ -13,7 +13,7 @@ body{
 }
 /* 
 Celular */
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 250px) {
 
 .cabecalho{
     display: flex;
