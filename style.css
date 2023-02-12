@@ -13,7 +13,7 @@ body{
 }
 /* 
 Celular */
-@media screen and (min-width: 250px) {
+@media screen and (max-width: 900px) {
 
 .cabecalho{
     display: flex;
@@ -365,7 +365,7 @@ Celular */
 }
 
 /* computador */
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 900px) {
     .cabecalho{
         display: flex;
         flex-direction: row;
