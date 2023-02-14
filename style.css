@@ -381,6 +381,22 @@ Celular */
         margin-left: 70%;
     }
 
+    .cabecalho-menu-item{
+        font-family: 'Poppins', sans-serif;
+        color: #6B0F3C;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    
+    .cabecalho-menu-item:hover{
+        font-family: 'Poppins', sans-serif;
+        color: #6B0F3C;
+        font-weight: bold;
+        font-size: 18px;
+        border-bottom: 0.1px solid #6B0F3C;
+    }
+    
+
 .conteudo{
     margin-bottom: 40px;
     padding: 0px 2px 1% 14px;
@@ -399,6 +415,23 @@ Celular */
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.conteudo-titulo{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #8C0335;
+    padding-top: 60px;
+}
+
+.conteudo-titulo:hover{
+    background-image: linear-gradient(to bottom, #f44585, #cf2362, #24010e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    cursor: default;
 }
 
 .conteudo-button{
