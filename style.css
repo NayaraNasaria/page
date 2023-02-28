@@ -7,9 +7,26 @@
   text-decoration: none;
 }
 
+body[data-theme="t-dark"] {
+  --color-bg: #181516;
+  --color-text: #ffb2de;
+}
+
+body[data-theme="t-light"] {
+  --color-bg: whitesmoke;
+}
+
 body {
   font-size: 100%;
-  background-color: whitesmoke;
+  background: var(--color-bg);
+}
+
+.my-button {
+  width: 20px;
+  height: 20px;
+  background: var(--color-bg);
+  border-radius: 50%;
+  cursor: pointer;
 }
 /* 
 Celular */
@@ -20,7 +37,7 @@ Celular */
     align-items: center;
     justify-content: flex-start;
     padding: 5% 0px 0px;
-    background-color: whitesmoke;
+    background: var(--color-bg);
   }
 
   .cabecalho-menu {
