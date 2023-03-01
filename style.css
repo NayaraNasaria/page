@@ -64,6 +64,19 @@ body.dark .card-bottom {
   color: #292929;
 }
 
+body.dark .conteudo-titulo-tcc {
+  color: #ff76a8;
+}
+
+body.dark .desc-tcc {
+  color: #b2b2b2;
+}
+
+body.dark .img-tcc {
+  border: #2e2e2e solid;
+  border-radius: 5%;
+}
+
 .checkbox {
   opacity: 0;
   position: relative;
@@ -247,7 +260,7 @@ Celular */
     font-family: "Poppins", sans-serif;
     text-align: justify;
     color: #181516;
-    font-weight: 500;
+    font-weight: 550;
     font-size: 14px;
     transition: all 0.5s ease;
   }
@@ -685,7 +698,7 @@ Celular */
     font-family: "Poppins", sans-serif;
     text-align: justify;
     color: #181516;
-    font-weight: 500;
+    font-weight: 550;
     font-size: 16px;
     transition: all 0.5s ease;
   }
