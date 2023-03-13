@@ -132,11 +132,17 @@ body.dark .img-tcc {
 }
 
 .fa-moon {
-  color: #fbed4f;
+  height: 15px;
+  color: #ffffff;
+  margin-bottom: 1%;
+  margin-left: 5%;
 }
 
 .fa-sun {
-  color: #eda108;
+  height: 15px;
+  color: #ffffff;
+  margin-bottom: 1%;
+  margin-right: 5%;
 }
 
 /* 
