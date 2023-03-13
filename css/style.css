@@ -162,8 +162,7 @@ Celular */
     display: flex;
     gap: 30px;
     margin-left: 5%;
-    margin-left: 2%;
-    margin-right: 1%;
+    margin-right: 2%;
   }
 
   .cabecalho-menu-item {
