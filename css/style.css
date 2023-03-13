@@ -666,7 +666,7 @@ Celular */
   .conteudo-titulo {
     font-family: "Playfair Display", serif;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 48px;
     color: #8c0335;
     padding-top: 60px;
   }
@@ -690,7 +690,7 @@ Celular */
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     color: black;
-    margin-left: 15%;
+    margin-left: 26%;
   }
 
   .conteudo-button:hover {
